@@ -1,3 +1,5 @@
+The current project implements a program, written in C++, that is a book library management system project. It executes various operations, depending on whether there is a correctly logged in user and whether he is an administrator. Users have access to all books in the library. They can search for a particular book and sort books by different criteria. Administrators have the ability to add and delete books from the system, as well as register and remove users.
+
 Compilation
 
 c++ Book.cpp main.cpp -o main.exe
