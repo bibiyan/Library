@@ -1,14 +1,12 @@
-Настоящият проект има за цел реализирането на програма, представляваща информационна система, която поддържа библиотека. Приложението изпълнява различни операции, според това дали има коректно влязъл потребил в системата и дали той е администратор. Потребителите имат достъп до всички книги в библиотеката, могат да търсят определена книга, да сортират книгите по различен критерий. Администраторите имат възможност да добавят и изтриват книги от системата, както и да регистрират и премахват потребители.
-
-Компилация:
+Compilation
 
 c++ Book.cpp main.cpp -o main.exe
 
 ./main.exe
 
-Вход: open books.txt
+Input: open books.txt
 
-Вход: login
+Input: login
 
 Username: admin
 
@@ -16,7 +14,7 @@ Password: ******
 
 Welcome, admin!
 
-Вход: books add
+Input: books add
 
 Add a book:
 
@@ -34,7 +32,7 @@ Key words: farm love
 
 Rating (0-10): 7.9
 
-Вход: books add
+Input: books add
 
 Add a book:
 
@@ -54,7 +52,7 @@ Key words: indians adventure
 
 Rating (0-10): 8.8
 
-Вход: users add
+Input: users add
 
 Username: yana
 
@@ -64,14 +62,14 @@ Is admin? (0-false): 0
 
 Added
 
-Вход: books sort title
+Input: books sort title
 
 East of Eden John Steinbeck Novel 53107
 
 Winnetou Karl May Western 58788
 
-Вход: close
+Input: close
 
-Вход: logout
+Input: logout
 
-Вход: exit
+Input: exit
